@@ -1,0 +1,30 @@
+How to Build an API
+Building an API takes much more than just programming a server.
+
+You can think of building an API as a workflow consisting of several phases, each with its own additional steps. Regardless of which phase you are in, Apiary will improve your API workflow.
+
+Preparation
+Design & Prototype
+Development
+Delivery
+Consumption
+Analysis
+Preparation
+A few key decisions need to be made before you can start building your new API. In this preparation phase you should define the application domain semantics, decide what API architectural style you are going to use, and form an API style guide.
+
+In organizations with many APIs, the formalization of these steps leads to increased consistency and improves the overall developer experience.
+
+Define Domain Semantics
+What is the thing you’re describing? Is it a chair or a bench? At first sight, it may feel obvious or even trivial to define the semantics of your application domain. However, make sure you list all the terms used in your application and get everybody on the same page of what they mean.
+
+Being clear on what things are and what they mean is the foundation of all communication—even more so when it comes to an API.
+
+Choose Architectural Style
+What will be the architecture style of your API? Will it be Event-driven, URI CRUD-based or a Hypermedia API? Each style has its advantages and disadvantages. There is no silver bullet. Functionality aside, some architectural styles are easier and faster to implement, while others offer benefits like scalability and evolvability.
+
+Pick the appropriate architectural style for your application and make sure it is clearly communicated.
+
+Formalize Style Guide
+The Style Guide defines the conventions of your API—such as the media type you're going to use, the kind of authentication you will put in place, or the way you will paginate results. It also covers the naming conventions, URI formatting and others. Think of it as a coding style guide for your API.
+
+Write down the conventions in a clear and concise form.
